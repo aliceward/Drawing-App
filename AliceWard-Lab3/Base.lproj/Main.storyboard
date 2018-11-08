@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t3o-VP-Fbr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AliceWard_Lab3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="G51-FM-es2">
+                                <rect key="frame" x="11" y="617" width="352" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnQ-Na-2lh">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="redButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Uc-l6-kFe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOn-0y-Gfq">
+                                        <rect key="frame" x="51" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="orangeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4f7-b3-7NN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HQ-ei-qSp">
+                                        <rect key="frame" x="102" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="yellowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYs-Ix-dqf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwj-83-lOR">
+                                        <rect key="frame" x="153" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="greenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1h3-X2-l6q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NU9-60-xfk">
+                                        <rect key="frame" x="204" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="blueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ODU-f9-023"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-IP-q4M">
+                                        <rect key="frame" x="255" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="purpleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DNM-ZI-z8f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUR-fd-Sdw">
+                                        <rect key="frame" x="306" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pinkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p2i-mi-aRk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="XUR-fd-Sdw" firstAttribute="width" secondItem="VnQ-Na-2lh" secondAttribute="width" id="8x4-HN-CIF"/>
+                                    <constraint firstItem="6HQ-ei-qSp" firstAttribute="height" secondItem="VnQ-Na-2lh" secondAttribute="height" id="Ag8-ef-s8w"/>
+                                    <constraint firstItem="UOn-0y-Gfq" firstAttribute="height" secondItem="VnQ-Na-2lh" secondAttribute="height" id="FOl-gQ-gy0"/>
+                                    <constraint firstItem="NU9-60-xfk" firstAttribute="width" secondItem="VnQ-Na-2lh" secondAttribute="width" id="Jqp-Us-Wsy"/>
+                                    <constraint firstItem="NU9-60-xfk" firstAttribute="height" secondItem="VnQ-Na-2lh" secondAttribute="height" id="SQk-iK-AA9"/>
+                                    <constraint firstItem="OJi-IP-q4M" firstAttribute="height" secondItem="VnQ-Na-2lh" secondAttribute="height" id="T1G-5u-XGW"/>
+                                    <constraint firstItem="OJi-IP-q4M" firstAttribute="width" secondItem="VnQ-Na-2lh" secondAttribute="width" id="TIj-Iv-Wum"/>
+                                    <constraint firstItem="nwj-83-lOR" firstAttribute="height" secondItem="VnQ-Na-2lh" secondAttribute="height" id="Tku-iU-Pqi"/>
+                                    <constraint firstItem="6HQ-ei-qSp" firstAttribute="width" secondItem="VnQ-Na-2lh" secondAttribute="width" id="iYn-qn-jUA"/>
+                                    <constraint firstItem="nwj-83-lOR" firstAttribute="width" secondItem="VnQ-Na-2lh" secondAttribute="width" id="jcZ-oI-N66"/>
+                                    <constraint firstItem="XUR-fd-Sdw" firstAttribute="height" secondItem="VnQ-Na-2lh" secondAttribute="height" id="qmt-rZ-ckM"/>
+                                    <constraint firstItem="UOn-0y-Gfq" firstAttribute="width" secondItem="VnQ-Na-2lh" secondAttribute="width" id="qxT-ky-COI"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZK7-nT-daI">
+                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="G51-FM-es2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1lW-J5-gYd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G51-FM-es2" secondAttribute="trailing" constant="12" id="4Hf-cV-uOT"/>
+                            <constraint firstItem="ZK7-nT-daI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Waz-te-BgX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="G51-FM-es2" secondAttribute="bottom" constant="20" id="aek-VC-fHB"/>
+                            <constraint firstItem="ZK7-nT-daI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="euN-Kp-2EX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZK7-nT-daI" secondAttribute="trailing" id="hAy-Yr-lO2"/>
+                            <constraint firstItem="ZK7-nT-daI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hlk-jq-71d"/>
+                            <constraint firstItem="ZK7-nT-daI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="mWy-OL-jeG"/>
+                            <constraint firstItem="G51-FM-es2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="11" id="woS-kh-Hcc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Ym-Bq-aDy">
+                        <nil key="title"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Clear" id="zuq-zP-qD7">
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="clearPressed:" destination="BYZ-38-t0r" id="85m-iX-SJs"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Stencil" id="Djl-gA-NuN">
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="stencilPressed:" destination="BYZ-38-t0r" id="tY4-vv-5v7"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <slider key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="50" id="1gF-TP-U8G">
+                            <rect key="frame" x="128.5" y="5" width="108.5" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="sliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="809-Ej-ct2"/>
+                            </connections>
+                        </slider>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Undo" id="3df-CX-0zh">
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="undoPressed:" destination="BYZ-38-t0r" id="Xqt-FD-P2R"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Random" id="QBT-zn-hpo">
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="randomPressed:" destination="BYZ-38-t0r" id="8WE-Ij-N3A"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="stencil" destination="ZK7-nT-daI" id="wX6-ji-koH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2933.5999999999999" y="31.934032983508249"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1b8-fP-hnF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t3o-VP-Fbr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Lq-N9-DjH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mOi-mH-QLB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ri-1x-zXc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1994.4000000000001" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>
